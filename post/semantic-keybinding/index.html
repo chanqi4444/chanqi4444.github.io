@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Semantic Keybinding - Even - A super concise theme for Hugo</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="olOwOlo" /><meta name="description" content="01.Semantic-Keybinding Emacs从最源头处, 首先用 M(Meta)-x(Execute) 调用所有的function。然后更进一步，以Control单键取代M-x双键，并将M-x调用的函数名，简化为" /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.95.0 with theme even" />
+
+
+<link rel="canonical" href="http://localhost:1313/post/semantic-keybinding/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.b5a744db6de49a86cadafb3b70f555ab443f83c307a483402259e94726b045ff.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="Semantic Keybinding" />
+<meta property="og:description" content="01.Semantic-Keybinding Emacs从最源头处, 首先用 M(Meta)-x(Execute) 调用所有的function。然后更进一步，以Control单键取代M-x双键，并将M-x调用的函数名，简化为" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/semantic-keybinding/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-02-21T06:10:11+08:00" />
+<meta property="article:modified_time" content="2022-02-21T06:10:11+08:00" />
+
+<meta itemprop="name" content="Semantic Keybinding">
+<meta itemprop="description" content="01.Semantic-Keybinding Emacs从最源头处, 首先用 M(Meta)-x(Execute) 调用所有的function。然后更进一步，以Control单键取代M-x双键，并将M-x调用的函数名，简化为"><meta itemprop="datePublished" content="2022-02-21T06:10:11+08:00" />
+<meta itemprop="dateModified" content="2022-02-21T06:10:11+08:00" />
+<meta itemprop="wordCount" content="1545">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Semantic Keybinding"/>
+<meta name="twitter:description" content="01.Semantic-Keybinding Emacs从最源头处, 首先用 M(Meta)-x(Execute) 调用所有的function。然后更进一步，以Control单键取代M-x双键，并将M-x调用的函数名，简化为"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Even</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
+  </ul>
+
+  
+
+
+</nav>
+
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Even</a>
+</div>
+
+
+
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Semantic Keybinding</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2022-02-21 </span>
+        
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#headline-1">1.字符与单词 (Character and Word)</a>
+</li>
+<li><a href="#headline-2">2.行与句子(Line and Sentence)</a>
+</li>
+<li><a href="#headline-3">3.纵向的移动 (Vertical Movement)</a>
+</li>
+<li><a href="#headline-4">4.纵向的翻页(Vertically Page Down and Up)</a>
+</li>
+<li><a href="#headline-5">5.缓冲区(Buffer)</a>
+</li>
+<li><a href="#headline-6">6.逻辑分割（Logical Segments)</a>
+</li>
+<li><a href="#headline-7">7.键位布置</a>
+</li>
+<li><a href="#headline-8">8.基本概念</a>
+</li>
+</ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <h1 class="title"><p>01.Semantic-Keybinding</p>
+</h1>
+
+<p>
+Emacs从最源头处,
+首先用 M(Meta)-x(Execute) 调用所有的function。然后更进一步，以Control单键取代M-x双键，并将M-x调用的函数名，简化为其首字母。
+比如向前移动一个字符的冗余实现过程为：M-x forward-char, 而按照简化的逻辑则变为C-f。C（Control）对应 M（Meta）-x，而字符f为函数forward-char的首字母。</p>
+<p>
+换言之，我们只须单单从词源和语义出发, 就能快速且永久性记住常用的快捷键.</p>
+<p>
+在最高频的快捷键绑定中, C-x, M-x中的x(execute)省略, 简化为C-与M-。本节我们将接着阐述光标的基本动作，其操作的对象为：
+character, word, line, sentence, (*paragragh), page, buffer.</p>
+<div id="outline-container-headline-1" class="outline-2">
+<h2 id="headline-1">
+1.字符与单词 (Character and Word)
+</h2>
+<div id="outline-text-headline-1" class="outline-text-2">
+<p>
+C-f (M-x forward-char) 向前移动一个字符的位置
+C-b (M-x backword-char) 向后移动一个字符的位置
+char 是最小的操作单元, char之上则是word, 回顾上文阐述的meta的词源含义是higher,因此Meta绑定相同的键, 范围要比Ctrl更大一点, 由此, 比char大一级的是word
+M-f (M-x forward-word) 向前移动一个单词的位置.
+M-b (M-x backword -word) 向后移动一个单词的位置.</p>
+</div>
+</div>
+<div id="outline-container-headline-2" class="outline-2">
+<h2 id="headline-2">
+2.行与句子(Line and Sentence)
+</h2>
+<div id="outline-text-headline-2" class="outline-text-2">
+<p>
+C-e (e for end) 移动到行尾
+C-a (a for ahead) 移动到行首</p>
+<p>
+同样的逻辑,Meta比Ctrl的范围高一个等级
+M-a 光标移动到句首
+M-e 光标移动到句末</p>
+<p>
+以上两点为光标在水平方向的移动(horizontal), 与之相对应的纵向(Vertiallly)移动的操作.</p>
+</div>
+</div>
+<div id="outline-container-headline-3" class="outline-2">
+<h2 id="headline-3">
+3.纵向的移动 (Vertical Movement)
+</h2>
+<div id="outline-text-headline-3" class="outline-text-2">
+<p>C-n (调用function next-line), 向下移动一行
+C-p (previous-line)
+接下来, 有意思的事情来了.
+由character和line操作可知, 绑定相同的键, Meta的作用范围总是比Ctrl更高一级, 但是如果此时查看:</p>
+<pre class="example">
+M-p
+M-n
+</pre>
+<p>发现Emacs没有定义这两个key-sequnces, 根据前面的逻辑, M-p应该向上移动更多行, 至少比一行要多; Emacs竟然没有定义, 这真是千载难逢的良机.
+此节按下不表, 先小结Ctrl的光标操作. Ctrl能操作的最大单位是line, 更大范围的光标动作交由Meta完成.</p>
+</div>
+</div>
+<div id="outline-container-headline-4" class="outline-2">
+<h2 id="headline-4">
+4.纵向的翻页(Vertically Page Down and Up)
+</h2>
+<div id="outline-text-headline-4" class="outline-text-2">
+<p>
+向上翻页M-v, v当然是vertical, 而Meta是higher, 往更高处纵向移动, 当然便是UP; 
+那么向下呢? 既然Meta相对于Ctrl而higher, 反过来Ctrl则是Lower;
+因此向下翻页是C-v.
+此处的心思, 一级绑定, 始终用最少的动作, 最少的触发键, 如果绑定三个键, 则不需要Ctrl的参与.
+比如设置三键组合M-v-u(up), M-v-d(down)向下，如此设置比较双键组合尚显冗余。
+然而，M-v与C-v辅助便利地向上和向下翻页, 问题是他们是整屏, 整屏地翻页, 大多数时候, 这不是我们想要的. 更常用的操作是半屏半屏的翻页.</p>
+<p>
+现在重新回到M-p与M-n, 绑定半屏翻页.</p>
+<div class="src src-emacs-lisp">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="line"><span class="cl"><span class="p">(</span><span class="nb">defun</span> <span class="nv">previous-multilines</span> <span class="p">()</span>
+</span></span><span class="line"><span class="cl">  <span class="s">&#34;scroll down multiple lines&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">(</span><span class="nb">interactive</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">(</span><span class="nf">scroll-down</span> <span class="p">(</span><span class="nf">/</span> <span class="p">(</span><span class="nf">window-body-height</span><span class="p">)</span> <span class="mi">3</span><span class="p">)))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="nb">defun</span> <span class="nv">next-multilines</span> <span class="p">()</span>
+</span></span><span class="line"><span class="cl">  <span class="s">&#34;scroll up multiple lines&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">(</span><span class="nb">interactive</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">(</span><span class="nf">scroll-up</span> <span class="p">(</span><span class="nf">/</span> <span class="p">(</span><span class="nf">window-body-height</span><span class="p">)</span> <span class="mi">3</span><span class="p">)))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="nv">global-set-key</span> <span class="s">&#34;\M-n&#34;</span> <span class="ss">&#39;next-multilines</span><span class="p">)</span> <span class="c1">;;custom</span>
+</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="nv">global-set-key</span> <span class="s">&#34;\M-p&#34;</span> <span class="ss">&#39;previous-multilines</span><span class="p">)</span> <span class="c1">;;custom</span></span></span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+<blockquote>
+<p>因为设置了触控板(或者鼠标)Invert scroll direction(Natural Scrolling), 因此up与down是反着映射到next和previous的</p>
+</blockquote>
+</div>
+</div>
+<div id="outline-container-headline-5" class="outline-2">
+<h2 id="headline-5">
+5.缓冲区(Buffer)
+</h2>
+<div id="outline-text-headline-5" class="outline-text-2">
+<p>
+M-&lt; 移动到buffer头部
+M-&gt; 移动到Buffer的尾部
+只要记着ctrl只管到line, 其余全部都是Higher的Meta的工作.</p>
+</div>
+</div>
+<div id="outline-container-headline-6" class="outline-2">
+<h2 id="headline-6">
+6.逻辑分割（Logical Segments)
+</h2>
+<div id="outline-text-headline-6" class="outline-text-2">
+<ul>
+<li>
+<p><strong>Paragraph</strong></p>
+<dl>
+<dt>
+M-{
+</dt>
+<dd>Move back to previous paragraph beginning (<code class="verbatim">backward-paragraph</code>).</dd>
+<dt>
+M-}
+</dt>
+<dd>Move forward to next paragraph end (<code class="verbatim">forward-paragraph</code>).</dd>
+<dt>
+M-h
+</dt>
+<dd>Put point and mark around this or next paragraph (<code class="verbatim">mark-paragraph</code>).</dd>
+</dl>
+</li>
+<li>
+<p><strong>Pages</strong></p>
+<dl>
+<dt>
+M-x
+</dt>
+<dd>what-page Display the page number of point, and the line number within that page.</dd>
+<dt>
+C-x [
+</dt>
+<dd>Move point to previous page boundary (<code class="verbatim">backward-page</code>).</dd>
+</dl>
+<dl>
+<dt>
+C-x ]
+</dt>
+<dd>Move point to next page boundary (<code class="verbatim">forward-page</code>).</dd>
+<dt>
+C-x C-p
+</dt>
+<dd>Put point and mark around this page (or another page) (<code class="verbatim">mark-page</code>).</dd>
+<dt>
+C-x l
+</dt>
+<dd>Count the lines in this page (<code class="verbatim">count-lines-page</code>).</dd>
+</dl>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-7" class="outline-2">
+<h2 id="headline-7">
+7.键位布置
+</h2>
+<div id="outline-text-headline-7" class="outline-text-2">
+<p>
+建议键位调整为:</p>
+<pre class="example">
+Alt(option) --&gt; Ctrl --&gt; Space &lt;-- Ctrl &lt;--Alt
+</pre>
+<p>不管是在哪一种键盘上，都要保持此键位布置。</p>
+</div>
+</div>
+<div id="outline-container-headline-8" class="outline-2">
+<h2 id="headline-8">
+8.基本概念
+</h2>
+<div id="outline-text-headline-8" class="outline-text-2">
+<p>
+Emacs对光标Cursor有着特殊的命名即Point。选中的一块区域称之为region。而region的两端，一端为Point，而另外一端则为Mark。</p>
+<p>
+基本操作总结如下：</p>
+<table>
+<tbody>
+<tr>
+<td>Command</td>
+<td>Descripion</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td>C-@</td>
+<td>Set mark</td>
+</tr>
+<tr>
+<td>C-Spc</td>
+<td>same as C-@</td>
+</tr>
+<tr>
+<td>C-x C-x</td>
+<td>Interchange mark and point</td>
+</tr>
+<tr>
+<td>M-@</td>
+<td>set mark after next word</td>
+</tr>
+<tr>
+<td>M-h</td>
+<td>region around paragraph</td>
+</tr>
+<tr>
+<td>C-x h</td>
+<td>Put region around entire buffer</td>
+</tr>
+</tbody>
+</table>
+<p>其中，M-h往往会忘掉。</p>
+</div>
+</div>
+
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">olOwOlo</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2022-02-21
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      
+      <nav class="post-nav">
+        <a class="prev" href="/post/myfirstblog/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">MyFirstBlog</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/prelude/">
+            <span class="next-text nav-default">Prelude</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://localhost:1313" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="http://localhost:1313" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="http://localhost:1313" class="iconfont icon-facebook" title="facebook"></a>
+      <a href="http://localhost:1313" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="http://localhost:1313" class="iconfont icon-google" title="google"></a>
+      <a href="http://localhost:1313" class="iconfont icon-github" title="github"></a>
+      <a href="http://localhost:1313" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="http://localhost:1313" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="http://localhost:1313" class="iconfont icon-douban" title="douban"></a>
+      <a href="http://localhost:1313" class="iconfont icon-pocket" title="pocket"></a>
+      <a href="http://localhost:1313" class="iconfont icon-tumblr" title="tumblr"></a>
+      <a href="http://localhost:1313" class="iconfont icon-instagram" title="instagram"></a>
+      <a href="http://localhost:1313" class="iconfont icon-gitlab" title="gitlab"></a>
+      <a href="http://localhost:1313" class="iconfont icon-bilibili" title="bilibili"></a>
+  <a href="http://localhost:1313/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2017 - 
+    2022<span class="heart"><i class="iconfont icon-heart"></i></span><span>olOwOlo</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.64437849d125a2d603b3e71d6de5225d641a32d17168a58106e0b61852079683.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

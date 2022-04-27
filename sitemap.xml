@@ -3,20 +3,27 @@
   
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2022-03-25T14:19:52+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/post/org-mode-test/</loc>
-    <lastmod>2022-03-25T14:19:52+08:00</lastmod>
+    <lastmod>2022-04-27T18:24:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://localhost:1313/post/</loc>
+    <lastmod>2022-04-27T18:24:22+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/read-a-book-in-a-serious-way/</loc>
+    <lastmod>2022-04-27T18:24:22+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/org-mode-test/</loc>
     <lastmod>2022-03-25T14:19:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -37,6 +44,27 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/post/semantic-keybinding/</loc>
+    <lastmod>2022-02-21T06:10:11+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/prelude/</loc>
+    <lastmod>2021-05-22T20:25:57+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/how-to-take-smart-notes/</loc>
+    <lastmod>2020-06-20T18:24:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -44,6 +72,12 @@
   
   <url>
     <loc>http://localhost:1313/tags/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/images/think-with-emacs/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

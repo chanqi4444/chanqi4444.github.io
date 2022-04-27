@@ -6,7 +6,16 @@
     <description>Recent content on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Mar 2022 14:19:52 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Apr 2022 18:24:22 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Read a Book in a Serious Way</title>
+      <link>http://localhost:1313/post/read-a-book-in-a-serious-way/</link>
+      <pubDate>Wed, 27 Apr 2022 18:24:22 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/read-a-book-in-a-serious-way/</guid>
+      <description>Read-a-Book-In-a-Serioius-Way 序 一本书读过之后, 当再次拿起来的时候, 仿佛读新书一样; 读了, 看了, &amp;#34;劳民伤财&amp;#34;投入大量时间与精力, 但是记不住怎么办? 本文试</description>
+    </item>
+    
     <item>
       <title>Org Mode Test</title>
       <link>http://localhost:1313/post/org-mode-test/</link>
@@ -34,6 +43,49 @@ Second   subtitle   another subtitle  3333  ajeof
       
       <guid>http://localhost:1313/post/myfirstblog/</guid>
       <description>This is my first blog (not a draft here)</description>
+    </item>
+    
+    <item>
+      <title>Semantic Keybinding</title>
+      <link>http://localhost:1313/post/semantic-keybinding/</link>
+      <pubDate>Mon, 21 Feb 2022 06:10:11 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/semantic-keybinding/</guid>
+      <description>01.Semantic-Keybinding Emacs从最源头处, 首先用 M(Meta)-x(Execute) 调用所有的function。然后更进一步，以Control单键取代M-x双键，并将M-x调用的函数名，简化为</description>
+    </item>
+    
+    <item>
+      <title>Prelude</title>
+      <link>http://localhost:1313/post/prelude/</link>
+      <pubDate>Sat, 22 May 2021 20:25:57 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/prelude/</guid>
+      <description>00 Prelude
+ 0.Prelude   Prejudices say: &amp;#34;Emacs is just hard to learn&amp;#34;. Such prejudices undermine Emacs&amp;#39; popularity.
+ This minor project tries to break the prejudice and denote how could take least efforts and sufferings to learn Emacs.
+ This series blogs were written originally in Chinese, so translating might take nights.
+  Emacs is simple and its universe big-bang from M-x.
+  1.So simple Emacs: Meta Key   Emacs&amp;#39; elegance and simplicity, in a nutshell, is just a Meta key.</description>
+    </item>
+    
+    <item>
+      <title>How to Take Smart Notes</title>
+      <link>http://localhost:1313/post/how-to-take-smart-notes/</link>
+      <pubDate>Sat, 20 Jun 2020 18:24:35 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/how-to-take-smart-notes/</guid>
+      <description>How to Task Smart Notes  “Notes on paper, or on a computer screen […] do not make contemporary physics or other kinds of intellectual endeavor easier, they make it possible … no matter how internal processes are implemented […you..] need to understand the extent to which the mind is reliant upon external scaffolding.” (Levy 2011, 270)
+ “One cannot think without writing.” (Luhmann 1992, 53)
+  Table of Contents   I) Introduction  1.</description>
+    </item>
+    
+    <item>
+      <title>Think With Emacs</title>
+      <link>http://localhost:1313/post/images/think-with-emacs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/images/think-with-emacs/</guid>
+      <description>For: Beginner to intermediate Emacs users (non-technical backgrounds are okay) who want to use it for organizing what they know/think and learning more Outcome: People can use this incredibly powerful although somewhat intimidatingly technical tool to aid their learning Possible collaborator: Bill Zimmerly The basics Objective: Get people from 0 to 1 – Writing conventions used in this book – How to install Emacs – Basic concepts and keyboard shortcuts</description>
     </item>
     
   </channel>
